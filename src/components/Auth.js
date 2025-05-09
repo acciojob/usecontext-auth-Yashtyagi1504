@@ -12,7 +12,7 @@ const Auth = ()=>{
         <div>
             <h1>Click on the checkbox to get authenticated</h1>
             {
-                auth ? <p>You are now authenticated, you can proceed</p> : <p>you are not authenticated</p>
+                auth ? <p className="authText">You are now authenticated, you can proceed</p> : <p>you are not authenticated</p>
             }
             <label>
                 <input type="checkbox" onChange={()=>auth?setAuth(false):setAuth(true)}></input>
