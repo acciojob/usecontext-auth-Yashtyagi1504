@@ -1,13 +1,14 @@
-
+import authContext from "../context/AuthContext";
 import React from "react";
-import './../styles/App.css';
+import "./../styles/App.css";
+import Auth from "./Auth";
 
 const App = () => {
   return (
-    <div>
-        {/* Do not remove the main div */}
-    </div>
-  )
-}
+    
+      <Auth></Auth>
+    
+  );
+};
 
-export default App
+export default App;
